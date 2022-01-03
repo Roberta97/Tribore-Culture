@@ -1,0 +1,48 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    background-image:linear-gradient(180deg, #0f600e81, #7bf1317e);
+    min-height:100vh;
+    font-family: 'Gloria Hallelujah', cursive, arial;
+}
+.container{
+    max-width: 800px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#area_titulo{
+    margin:51px 16px;
+    max-width:400px;
+
+}
+#area_titulo img{
+    width:100%;
+}
+.personagens{
+    width:100%;
+    display:flex;
+    justify-content: space-evenly;
+}
+.persona{
+    width:20%;
+    min-width:110px;
+    min-height:250px;
+    display:flex;
+    align-items:flex-end;
+    
+}
+.persona img{
+    width:100%;
+}
+.faixa_fundo{
+    width:100%;
+    height:77px;
+    position:relative;
+    bottom:50px;
+    z-index: -1;
+}
