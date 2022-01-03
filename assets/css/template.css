@@ -78,10 +78,7 @@ a{
     height: auto;
     width: 200px;
 }
-.tribore_menu img:hover{
-    width:206px;
-    transition:  1s;
-}
+
 .cont_1{
     display: flex;
     align-items: center;
