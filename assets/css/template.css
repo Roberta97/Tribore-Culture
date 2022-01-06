@@ -13,9 +13,7 @@ a{
 }
 .container{
     max-width: 800px;
-    /* background-color:white; */
     margin:auto;
-    /* overflow: hidden; */
     padding-top:50px;
 }
 .menu{
@@ -30,7 +28,7 @@ a{
     position: relative;
     display:flex;
     align-items:center;
-    /* top: 50px; */
+    
 }
 .btn_amarelo img{
     width:100%;
@@ -60,19 +58,13 @@ a{
 .btn_verde img {
     width:100%;
     height:129px;
-}/*
-.amarelo img, .vermelho img, .verde img{
-    width:100%;
-    height:125px;
-    
-}*/
+}
 .tribore_menu{
     width: 60%;
     height: auto;
     display: flex;
     position: fixed;
     bottom: 0;
-    cursor:pointer;
 }
 .tribore_menu img{
     height: auto;

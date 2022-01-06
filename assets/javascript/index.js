@@ -15,7 +15,4 @@ function playAudio(audio){
 
 var div=document.getElementById("play-boas_vindas") //selecionar o elemento id
 
-div.addEventListener("mouseover",function(){ //ouvir click
-    playAudio(audio.boas_vindas)
-})
 
